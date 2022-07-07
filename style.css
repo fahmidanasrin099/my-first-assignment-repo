@@ -45,16 +45,69 @@ body {
 
 
 
-.link-donation {
-    position: relative;
-    margin: -10%;
 
-}
 
 .link-donation-button {
-    text-decoration: none;
-    background-color: solid orangered;
+    position: relative;
+    background-image: linear-gradient(orange, tomato);
     color: white;
     padding: 10px 40px;
     border-radius: 12px;
+    text-align: center;
+    margin-left: 40%;
+    font-size: 50px;
+}
+
+.donate-now {
+    margin-top: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.donate-now h1 {
+    font-size: 120px;
+    color: blue;
+    margin-bottom: 25px;
+}
+
+.donate-now h4 {
+    font-size: 50px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    color: darkorange;
+}
+
+.donate-now p {
+    font-size: 35px;
+    margin-top: 8px;
+    margin: 0px 200px;
+    padding: 0px 150px;
+    color: gray;
+}
+
+.select-amount-center {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    list-style: none;
+    background-color: antiquewhite;
+    font-size: 52px;
+    font-weight: bold;
+    color: #4c4646;
+    margin: 30px;
+    padding: 15px 30px;
+    display: block;
+    text-align: center
 }
